@@ -1,0 +1,232 @@
+@import url(reset.css);
+html,
+body,
+.swrepp {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.swrepp {
+  font-size: 62.5%;
+}
+.swrepp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.swrepp header {
+  width: 100%;
+  height: 4.3rem;
+  background: none;
+  border-bottom: 0.1rem solid #c6c6c6;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.swrepp header .left {
+  width: 1.4rem;
+  height: auto;
+  background: none;
+}
+.swrepp header .left span {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 1.4rem;
+}
+.swrepp header .left span img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.swrepp header .right {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: 4.3rem;
+  font-size: 1.6rem;
+  color: #323232;
+}
+.swrepp section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.swrepp section::-webkit-scrollbar {
+  width: 0px;
+}
+.swrepp section .search {
+  width: 100%;
+  height: 5.5rem;
+  background: #f5f5f5;
+}
+.swrepp section .search .search_a {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+.swrepp section .search .search_a input {
+  width: 100%;
+  height: 3.5rem;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid none;
+  outline: none;
+  font-size: 1.5rem;
+  color: #999999;
+}
+.swrepp section .search .search_a span {
+  width: 1.2rem;
+  height: auto;
+  background: none;
+  display: inline-block;
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+}
+.swrepp section .search .search_a span img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.swrepp section .p {
+  width: 100%;
+  height: 5.5rem;
+  background: none;
+  border-bottom: 0.1rem solid #e5e5e5;
+  position: relative;
+}
+.swrepp section .p p {
+  line-height: 5.5rem;
+  margin-left: 10px;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.swrepp section .p img {
+  width: 0.9rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  right: 1.3rem;
+  top: 2.5rem;
+}
+.swrepp section .main {
+  width: 100%;
+  height: 7.3rem;
+  background: none;
+}
+.swrepp section .main .main_a {
+  margin: 0 10px;
+  width: auto;
+  height: 7.3rem;
+  background: none;
+  position: relative;
+  border-bottom: 0.1rem solid #cccccc;
+}
+.swrepp section .main .main_a dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.swrepp section .main .main_a dl dt span {
+  width: 3.9rem;
+  height: auto;
+  background: none;
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 18px;
+}
+.swrepp section .main .main_a dl dt span img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.swrepp section .main .main_a dl dd {
+  -webkit-box-flex: 1;
+  margin-top: 18px;
+}
+.swrepp section .main .main_a dl dd .p1 {
+  font-size: 16px;
+}
+.swrepp section .main .main_a dl dd .p2 {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #999999;
+}
+.swrepp section .main .main_a .guan {
+  width: 5.8rem;
+  height: 2.5rem;
+  background: none;
+  position: absolute;
+  right: 0px;
+  top: 23px;
+  text-align: center;
+  line-height: 2.5rem;
+  border-radius: 5px;
+  color: #999999;
+  border: 1px solid #999999;
+}
+.swrepp section .b {
+  width: 100%;
+  height: 5.5rem;
+  background: none;
+  position: relative;
+}
+.swrepp section .b p {
+  line-height: 5.5rem;
+  margin-left: 10px;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.swrepp section .b img {
+  width: 0.9rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  right: 1.3rem;
+  top: 2.5rem;
+}
+.swrepp section .biao {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.5rem;
+  background: #f3f3f3;
+  line-height: 3.5rem;
+}
+.swrepp section .biao span {
+  width: 4px;
+  height: auto;
+  background: none;
+  display: inline-block;
+  margin-left: 12px;
+  margin-top: 4px;
+}
+.swrepp section .biao span img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.swrepp section .biao p {
+  margin-left: 8px;
+  color: #666666;
+}
+.swrepp footer {
+  width: 100%;
+  height: 5rem;
+  background: none;
+  border-top: 0.1rem solid #c6c6c6;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.swrepp footer dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  padding-top: 10px;
+}
+.swrepp footer dl img {
+  width: 2rem;
+  height: 2rem;
+  background: none;
+}
